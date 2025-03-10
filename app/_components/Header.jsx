@@ -20,36 +20,38 @@ const Header = () => {
   }
 
   return (
-    <header className="flex  gap-2 items-center justify-between px-6 h-16 border-b border-gray-200">
-      <Link href="/" className="font-semibold">
-        Pokédex
-      </Link>
-      <form onSubmit={handleSearchPokemon}>
-        <label className="input">
-          <svg
-            className="h-[1em] opacity-50"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          >
-            <g
-              strokeLinejoin="round"
-              strokeLinecap="round"
-              strokeWidth="2.5"
-              fill="none"
-              stroke="currentColor"
+    <header className="  border-b border-gray-200">
+      <nav className="max-w-[1400px] mx-auto flex gap-2 h-16 items-center justify-between px-6">
+        <Link href="/" className="font-semibold">
+          Pokédex
+        </Link>
+        <form onSubmit={handleSearchPokemon}>
+          <label className="input">
+            <svg
+              className="h-[1em] opacity-50"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
             >
-              <circle cx="11" cy="11" r="8"></circle>
-              <path d="m21 21-4.3-4.3"></path>
-            </g>
-          </svg>
-          <input
-            type="search"
-            required
-            placeholder="Search"
-            ref={searchInputRef}
-          />
-        </label>
-      </form>
+              <g
+                strokeLinejoin="round"
+                strokeLinecap="round"
+                strokeWidth="2.5"
+                fill="none"
+                stroke="currentColor"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.3-4.3"></path>
+              </g>
+            </svg>
+            <input
+              type="search"
+              required
+              placeholder="Search"
+              ref={searchInputRef}
+            />
+          </label>
+        </form>
+      </nav>
     </header>
   );
 };

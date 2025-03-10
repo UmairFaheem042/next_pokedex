@@ -65,7 +65,7 @@ const PreviewPokemon = () => {
     );
 
   return (
-    <div className="min-h-[calc(100dvh-65px)] relative">
+    <div className="max-w-[1400px] mx-auto min-h-[calc(100dvh-65px)] relative">
       <button
         className="btn btn-secondary mx-5 my-4 md:m-0 md:absolute md:top-5 md:left-5"
         onClick={() => router.back()}

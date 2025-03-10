@@ -6,6 +6,7 @@ This is a simple Pokedex application built using Next.js 15 and PokeAPI.
 
 - Browse and search for Pokémon
 - View detailed information about each Pokémon
+- Pagination
 - Responsive design
 
 ## Technologies Used
@@ -13,6 +14,8 @@ This is a simple Pokedex application built using Next.js 15 and PokeAPI.
 - Next.js 15
 - React
 - PokeAPI
+- Tailwind CSS
+- Daisy UI
 
 ## Getting Started
 

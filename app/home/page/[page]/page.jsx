@@ -41,7 +41,7 @@ export default async function Page({ params }) {
   const { pokemons, next, previous } = await fetchPokemons(offset);
 
   return (
-    <div className="p-6">
+    <div className="max-w-[1400px] mx-auto p-6">
       <div className="flex items-center justify-between">
         <h1 className="text-4xl">All Pokémons</h1>
       </div>
