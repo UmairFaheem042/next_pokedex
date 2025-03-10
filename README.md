@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Pokedex
+
+This is a simple Pokedex application built using Next.js 15 and PokeAPI.
+
+## Features
+
+- Browse and search for Pokémon
+- View detailed information about each Pokémon
+- Responsive design
+
+## Technologies Used
+
+- Next.js 15
+- React
+- PokeAPI
 
 ## Getting Started
 
-First, run the development server:
+### Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/umairfaheem042/next_pokedex.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd next_pokedex
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+    or
+    ```bash
+    yarn install
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Running the Application
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Start the development server:
+    ```bash
+    npm run dev
+    ```
+    or
+    ```bash
+    yarn dev
+    ```
+2. Open your browser and navigate to `http://localhost:3000`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Building for Production
 
-## Learn More
+1. Build the application:
+    ```bash
+    npm run build
+    ```
+    or
+    ```bash
+    yarn build
+    ```
+2. Start the production server:
+    ```bash
+    npm start
+    ```
+    or
+    ```bash
+    yarn start
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Use the search bar to find specific Pokémon.
+- Click on a Pokémon to view detailed information.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are welcome! Please open an issue or submit a pull request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+- [PokeAPI](https://pokeapi.co/) for providing the Pokémon data
+- [Next.js](https://nextjs.org/) for the awesome framework
